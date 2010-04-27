@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+	<meta charset=utf-8 />
+	<title>Jumping into the jQuery Community</title> 
+	<link class="jsbin" href="themes/flick/jquery-ui-1.8.custom.css" rel="stylesheet" type="text/css"></link>
+	<link rel="stylesheet" href="style/style.css"/> 
+	<link rel="stylesheet" href="style/recipes.css"/> 
+	<link rel="stylesheet" href="style/team-style.css"/>
+	<script src="js/jquery-1.4.2.js"></script> 
+	<script src="js/jquery-ui-1.8.js"></script>
+	<script src="js/jquery.chili.js"></script> 
+	<script src="js/jquery.color.js"></script> 
+	<script src="js/recipes.js"></script> 
+	<script src="js/slideshow.js"></script> 
+	<script src="js/jquery-css-transform.js"></script>
+	<script src="js/jquery-animate-css-rotate-scale.js"></script>
+	<script src="js/jquery.quicksand.min.js"></script>
+	<script src="js/jquery.cross-slide.js"></script>
+	<script src="js/team.js"></script>
+	<script src="js/cross-slide.js"></script>
+</head> 
+<body> 
+	<a href="http://jquery.com/"><img src="images/jquery_logo.png" class="logo"/></a> 
+	<div class="slide main"> 
+		<h1>Jumping into the jQuery Community</h1> 
+		<img src="images/jquery_logo.png"/> 
+		<br/>
+		<h3>Ralph Whitbeck</h3>
+		<p>	jQuery and jQuery UI Team Member<br/>
+			Developer Relations Team</p>
+		<p><small><a href="http://ralphwhitbeck.com" target="_blank">http://ralphwhitbeck.com</a><br/>
+		<a href="http://twitter.com/RedWolves" target="_blank">http://twitter.com/RedWolves</a></small></p> 
+	</div> 
+	<div class="slide">
+		<h1>Overview</h1>
+		<ul>
+			<li>Why contribute to open source</li>
+			<li>My personal story</li>
+			<li>The jQuery Project</li>
+			<li>How can you help?</li>
+		</ul>
+	</div>
+	<div class="slide">
+		<h1>Why contribute to open source?</h1>
+		<img src="images/open_source.gif" id="openSource"/>
+		<ul>
+			<li>Greater recognition of your contribution</li>
+			<li>Improving a project that will benefit more then just you</li>
+			<li>Looks great on a resume</li>
+		</ul>
+	</div>
+	<div class="slide">
+		<h1>My personal story</h1>
+		<div id="personal"><h2>Click to start</h2></div>
+		<ul>
+			<li class="click">What helps?
+			<ul>
+				<li>Passion</li>
+				<li>Consistent</li>
+				<li>Communicate</li>
+				<li>Find a subproject that works for you</li>
+			</ul>
+			</li>
+			<li class="showOnClick">Why I love working on jQuery?
+				<ul>
+					<li>Meet some great people/developers</li>
+					<li>Travel</li>
+					<li>Working on something I love and use</li>
+					<li>Gain experience in area's I can't gain at work</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="slide"> 
+		<h1>The jQuery Team</h1> 
+		<div id="buttonset">
+		  		<button data-type="type-all">Whole team</button><button data-type="type-core">Core Development</button><button data-type="type-dr">Developer Relations</button><button data-type="type-infrastructure">Infrastructure</button><button data-type="type-ui">jQuery UI</button><button data-type="type-plugin">Plugins</button><button data-type="type-events">Events</button>
+		  </div>
+		  <ul id="team" class="team">
+			<li data-id="id-1" data-type="core">
+				<img src="images/aaron.jpg" />
+				<strong data-type="aaron">Brandon Aaron</strong>
+				<span>Core Development</span>
+			</li>
+			<li data-id="id-2" data-type="plugin">
+				<img src="images/alsup.jpg" />
+				<strong data-type="alsup">Mike Alsup</strong>
+				<span>Plugins</span>
+			</li>
+			<li data-id="id-3" data-type="ui">
+				<img src="images/bakaus.jpg" />
+				<strong data-type="bakaus">Paul Bakaus</strong>
+				<span>jQuery UI</span>
+			</li>
+			<li data-id="id-4" data-type="dr">
+				<img src="images/bango.jpg" />
+				<strong data-type="bango">Rey Bango</strong>
+				<span>Developer Relations</span>
+			</li>
+			<li data-id="id-5" data-type="core">
+				<img src="images/flesler.jpg" />
+				<strong data-type="flesler">Ariel Flesler</strong>
+				<span>Core Development</span>
+			</li>
+			<li data-id="id-6" data-type="ui">
+				<img src="images/gonzalez.jpg" />
+				<strong data-type="gonzalez">Scott González</strong>
+				<span>jQuery UI</span>
+			</li>
+			<li data-id="id-7" data-type="ui">
+				<img src="images/hartl.jpg" />
+				<strong data-type="hartl">Klaus Hartl</strong>
+				<span>jQuery UI</span>
+			</li>
+			<li data-id="id-8" data-type="infrastructure">
+				<img src="images/hostetler.jpg" />
+				<strong data-type="hostetler">Mike Hostetler</strong>
+				<span>Infrastructure</span>
+			</li>
+			<li data-id="id-9" data-type="dr">
+				<img src="images/irish.jpg" />
+				<strong data-type="irish">Paul Irish</strong>
+				<span>Developer Relations</span>
+			</li>
+			<li data-id="id-10" data-type="infrastructure">
+				<img src="images/jehl.jpg" />
+				<strong data-type="jehl">Scott Jehl</strong>
+				<span>Infrastructure</span>
+			</li>
+			<li data-id="id-11" data-type="core">
+				<img src="images/katz.jpg" />
+				<strong data-type="katz">Yehuda Katz</strong>
+				<span>Core Development</span>
+			</li>
+			<li data-id="id-12" data-type="dr">
+				<img src="images/lindley.jpg" />
+				<strong data-type="lindley">Cody Lindley</strong>
+				<span>Developer Relations</span>
+			</li>
+			<li data-id="id-13" data-type="core">
+				<img src="images/methvin.jpg" />
+				<strong data-type="methvin">David Methvin</strong>
+				<span>Core Development</span>
+			</li>
+			<li data-id="id-14" data-type="ui">
+				<img src="images/parker.jpg" />
+				<strong data-type="parker">Todd Parker</strong>
+				<span>jQuery UI</span>
+			</li>
+			<li data-id="id-15" data-type="core">
+				<img src="images/Resig.jpg" />
+				<strong data-type="resig">John Resig</strong>
+				<span>Core Development</span>
+			</li>
+			<li data-id="id-16" data-type="infrastructure">
+				<img src="images/sharpj.jpg" />
+				<strong data-type="sharpj">Jonathan Sharp</strong>
+				<span>Infrastructure</span>
+			</li>
+			<li data-id="id-17" data-type="dr">
+				<img src="images/sharp.jpg" />
+				<strong data-type="sharpr">Remy Sharp</strong>
+				<span>Developer Relations</span>
+			</li>
+			<li data-id="id-18" data-type="events">
+				<img src="images/Silber.jpg" />
+				<strong data-type="silber">Leah Silber</strong>
+				<span>Events</span>
+			</li>
+			<li data-id="id-19" data-type="dr">
+				<img src="images/swedberg.jpg" />
+				<strong data-type="swedberg">Karl Swedberg</strong>
+				<span>Developer Relations</span>
+			</li>
+			<li data-id="id-20" data-type="dr">
+				<img src="images/whitbeck.jpg" />
+				<strong data-type="whitbeck">Ralph Whitbeck</strong>
+				<span>Developer Relations</span>
+			</li>
+			<li data-id="id-21" data-type="ui">
+				<img src="images/worth.jpg" />
+				<strong data-type="worth">Richard Worth</strong>
+				<span>jQuery UI</span>
+			</li>
+			<li data-id="id-22" data-type="ui" data-type="core">
+				<img src="images/zaefferer.jpg" />
+				<strong data-type="zaefferer">Jörn Zaefferer</strong>
+				<span>jQuery UI</span>
+			</li>
+		  </ul>
+		<ul id="core" class="team-resp">
+			<li>Core library</li>
+			<li>QUnit</li>
+			<li>Bug tracker</li>
+		</ul>
+		<ul id="dr" class="team-resp">
+			<li>Community Outreach</li>
+			<li>Education</li>
+			<li>Documentation</li>
+			<li>Podcasts</li>
+		</ul>
+		<ul id="ui" class="team-resp">
+			<li>Develop and manage:
+				<ul>
+					<li>UI Toolkit</li>
+					<li>ThemeRoller</li>
+				</ul>
+			</li>
+			<li>Many other contributors</li>	
+		</ul>
+		<ul id="plugin" class="team-resp">
+			<li>Development process</li>
+			<li>Management/Strategy</li>
+			<li>Maintain core plugins</li>
+		</ul>
+		<ul id="infrastructure" class="team-resp">
+			<li>Manage Online Properties
+				<ul>
+					<li>Design</li>
+					<li>Server infrastructure</li>
+					<li>Code base</li>
+				</ul>
+			</li>
+		</ul>
+		<ul id="events" class="team-resp">
+			<li>Manage/coordinate Conferences</li>
+			<li>Secures sponsorships</li>
+		</ul>
+	</div> 
+	<div class="slide">
+		<h1>How can you help? jQuery Core</h1>
+		<ul>
+			<li>Test alpha/beta releases</li>
+			<li>Submit bug tickets</li>
+			<li>Help create reduced test cases</li>
+			<li>Participate in Developing jQuery Core Forum</li> 
+		</ul>	
+	</div>
+	<div class="slide">
+		<h1>How can you help? Developer Relations</h1>
+		<ul>
+			<li>Monitor the forums/Stack Overflow</li>
+			<li>Help new users with support questions</li>
+			<li>Bring any issues to a Developer Relations team member</li>
+			<li>Don't spread the wrong message</li>
+		</ul>
+	</div>
+	<div class="slide">
+		<h1>How can you help? Infrastructure</h1>
+		<ul>
+			<li>Get in touch with the infrastructure team if you can help</li>
+			<li>Design/HTML</li>
+			<li>New functionality</li>
+			<li>Server Monitoring/Troubleshooting</li>
+		</ul>	
+	</div>
+	<div class="slide">
+		<h1>How can you help? jQuery UI</h1>
+		<ul>
+			<li>Testing!!!!</li>
+			<li>Help create reduced test cases</li>
+			<li>Documentation</li>
+			<li>Planning</li>
+			<li>Evangelize</li>
+			<li>Fork and pull</li>
+		</ul>
+	</div>
+	<div class="slide">
+		<h1>How can you help? Events</h1>
+		<ul>
+			<li>Experience with coordinating events</li>
+			<li>Get in touch with us</li>
+			<li>4 Conferences a year
+				<ul>
+					<li>Online</li>
+					<li>San Francisco</li>
+					<li>London</li>
+					<li>Boston</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="slide">
+		<h1>Thank you</h1>
+		<ul>
+			<li>Questions/Comments?</li>
+		</ul>
+	</div>
+</body> 
+</html>

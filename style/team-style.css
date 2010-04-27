@@ -1,0 +1,66 @@
+.team {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 13px;
+}
+
+#buttonset {
+	width: 924px;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+button {
+	margin: 0;
+	font-size: 18px !important;
+}
+.team ul {
+	padding: 0;
+	margin: auto !important;
+	width: 924px;
+}
+ul#team:after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+.team li {
+	list-style:none;
+	float: left;
+	text-align: center;
+	width: 140px;
+	height: 155px;
+	margin: 0px !important;
+	line-height: 14px !important;
+}
+ul#team img{
+	width: 77px;
+	height: 76px;
+	-webkit-box-shadow: 3px 3px 6px #666;
+	-moz-box-shadow: 3px 3px 6px #666;
+	box-shadow: 3px 3px 6px #666;
+	-webkit-border-radius: 1px;
+	-moz-border-radius:1px;
+	border-radius: 1px;
+	-moz-transform:rotate(-1.5deg);
+	-webkit-transform:rotate(-1.5deg);
+	background: #ffffff;
+	padding: 4px;
+	padding-bottom: 18px;
+}
+ul#team strong {
+	display: block;
+	color: #ffffff;
+	text-shadow: 0px 0px 3px #ffffff;
+	filter: dropshadow(color=#ffffff, offx=0, offy=0);
+	font-size: 14px;
+	margin-top: 10px;
+}
+ul#team span {
+	color: #999999;
+	text-shadow: 0px 0px 2px #999999;
+	filter: dropshadow(color=#999999, offx=0, offy=0);
+	font-size: 12px;
+}
